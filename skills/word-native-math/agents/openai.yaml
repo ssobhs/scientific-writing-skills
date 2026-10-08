@@ -1,0 +1,4 @@
+interface:
+  display_name: "资料读取与Word格式保真"
+  short_description: "核对PDF图片中的科学符号，正确写入Word字体粗斜体角标及可编辑公式"
+  default_prompt: "使用 $word-native-math 核对这些资料中的科学符号与字形，在Word新稿中保留正确的字体、粗斜体、上下标和原生公式，并回源验证。"

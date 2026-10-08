@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-08",
+  "status": "PASS",
+  "scope": "Local publication checks; not a writing-quality benchmark or Word-rendering test",
+  "python": "3.12.14",
+  "dependencies": {
+    "lxml": "6.1.1",
+    "python-docx": "1.2.0",
+    "pdfplumber": "0.11.9",
+    "Pillow": "12.3.0"
+  },
+  "skill_frontmatter_validations": 4,
+  "packaging_check": "PASS: 4 skills, 7 Python syntax checks, 49 local links\nScope: package structure only; no model evaluation, Word rendering, or remote-link check.",
+  "cli_help_checks": [
+    {
+      "script": "cn-physics-computational-methods/scripts/audit_text.py",
+      "exit_code": 0,
+      "help_output_captured": true
+    },
+    {
+      "script": "cn-physics-results-analysis/scripts/measure_text.py",
+      "exit_code": 0,
+      "help_output_captured": true
+    },
+    {
+      "script": "word-native-math/scripts/native_scripts.py",
+      "exit_code": 0,
+      "help_output_captured": true
+    },
+    {
+      "script": "word-native-math/scripts/word_equations.py",
+      "exit_code": 0,
+      "help_output_captured": true
+    },
+    {
+      "script": "word-native-math/scripts/source_evidence.py",
+      "exit_code": 0,
+      "help_output_captured": true
+    }
+  ],
+  "in_memory_native_format_smoke": "PASS: literal text, italic, native subscript, bold and explicit upright",
+  "word_save_or_render_executed": false,
+  "model_evaluation_executed": false,
+  "publication_reference_adaptations": [
+    "cn-physics-introduction/references/provenance.md",
+    "word-native-math/references/rich-text-api.md",
+    "word-native-math/references/sources.md",
+    "word-native-math/references/usage.md"
+  ],
+  "skill_sha256": {
+    "cn-physics-computational-methods/SKILL.md": "d96e0fe31fbfcea03415f02d210ad5b54c29ba803c14192b197806b1f7b20a72",
+    "cn-physics-computational-methods/agents/openai.yaml": "c81bdfc2e94a16f7b77b2053e3949f499ee81efc4472ff38abcb62feff22eae2",
+    "cn-physics-computational-methods/references/chinese-expression.md": "11426a1b55edc7eadf715976b3a07f0197a5a22d3166ef921bb6de66ebba9890",
+    "cn-physics-computational-methods/references/independent-review.md": "ba5f38e27b9338001ce076cd26a23c08002f409c16c54b813b8722af270f9784",
+    "cn-physics-computational-methods/references/method-explanation.md": "a70537bfe10979b5997ed5896ed791595de5013718333c0c180c432148b249a3",
+    "cn-physics-computational-methods/references/method-fidelity.md": "b5de0f2ea66dff039ef7c1fb32910cea67c04bf68a77216cd1a8365cd8aeec2f",
+    "cn-physics-computational-methods/scripts/audit_text.py": "6514912f4a61120c9fdbd1fb49a7c43a9d7462a359441eb54accd2b721f07757",
+    "cn-physics-introduction/SKILL.md": "55fa65fda68871f251c44b35056465f6b9ed47d5b0db6a308c7335483afbad0f",
+    "cn-physics-introduction/agents/openai.yaml": "c4d7267f74ced3d66f02b1d1335e752b37ff5ac8fe3a10e53115bf0678af9509",
+    "cn-physics-introduction/references/language-decisions.md": "2b2961b689650d6046227068791a0ba037e11a56b9b99c3bae72dd9168eff2e7",
+    "cn-physics-introduction/references/paragraph-decisions.md": "61bd5da2c11cd4ac51d4513bea0386f89c4a05b3a31a4e2fff43811273f32c3c",
+    "cn-physics-introduction/references/provenance.md": "49d37e99dc955306fb1e3e6ca60b5b314b39c186095c72fdd4af2e8179a28695",
+    "cn-physics-introduction/references/revision-examples.md": "68f00aebda89f592b47c7354cf6c4889eefc01774811700394e253ac3ef8b394",
+    "cn-physics-results-analysis/SKILL.md": "aa13305f40d7cdf566bc94bc71da7aa2b430f3329e8d9157f5a7dd3df86f1e47",
+    "cn-physics-results-analysis/agents/openai.yaml": "f2cae497d53e3344979f761b5b7642b0c90a724ec38cdf6cccfdf982c29cba33",
+    "cn-physics-results-analysis/references/argumentation.md": "12f74b82e14b1e9d5a2a6b1da40b13bbaa67351d4927654abf0bccdf71816e33",
+    "cn-physics-results-analysis/references/chinese-expression.md": "cfaadea8f1e0a54319c2ede1609953015f9e0ee9a28ca4d4dc7342354dcf4a0c",
+    "cn-physics-results-analysis/references/data-and-figures.md": "6cf549de440116b7ab694539b54df3adf3d075bd8e58f844d929e99fc28b637a",
+    "cn-physics-results-analysis/references/independent-review.md": "af8d9221878e3a373729902259853da20fbd7dcbc6bcdc657eea97edd27afdd2",
+    "cn-physics-results-analysis/scripts/measure_text.py": "79cc125e62d1c5b4398716ea2297c99831accc2d5a2b6c32f66e83abb87a92b6",
+    "word-native-math/SKILL.md": "1e0827b85452c9699dac288f7ff09dcdffa8e0492fcfc2c82145aff7b46900fe",
+    "word-native-math/agents/openai.yaml": "c78e6a30a8012feaa8f864e287e89efe088f0ed3557c9756e8f325c95c40b97b",
+    "word-native-math/references/format-fidelity.md": "c1963e637191c77fcdf298c9bf34c5e7564d69dac754ab05b0211dd7005e9ae5",
+    "word-native-math/references/rich-text-api.md": "87b93207bcb65e2a15a7a4794e8865c8b106dd6f62ef2ec7c522663bb4807d99",
+    "word-native-math/references/source-evidence-api.md": "1a728cd392a99f8e67c52ff9380858c4d656aefb14f13117858c04720f71c45b",
+    "word-native-math/references/source-reading.md": "af921b6db0fcfc11da30ac825aa15fb20de2f3be4c6211912105d668f01250fb",
+    "word-native-math/references/sources.md": "657f1920de531d2ffd4fbdcc4cdfcc73644e1179d1169d77d767944d7fa6757b",
+    "word-native-math/references/usage.md": "7dda4c92ed3d03ec143f2587e6ecd8319566c30226cf6ba3beb1072fe51a6d61",
+    "word-native-math/scripts/native_scripts.py": "a7fbc664fe0855b5465b79b795798d138e171cdbb47eca3957de98150cbf1fb6",
+    "word-native-math/scripts/rich_text.py": "fcf57bf4a3cff4c3c914ac6add25f851810ebabc4a6e67d21f97977547e52d18",
+    "word-native-math/scripts/source_evidence.py": "bc84d81cfff936ea4bb11f75e9fd87272a5f7ebe36fcda05b146d397602fac23",
+    "word-native-math/scripts/word_equations.py": "3956aec72c74d54dd1ea1cd2f6830add15e6a5ed0dbfc35bbc960d65e919fd31"
+  },
+  "cli_utf8_mode_explicit": true,
+  "staged_skill_bytes_match": true
+}

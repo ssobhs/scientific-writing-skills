@@ -1,0 +1,5 @@
+interface:
+  display_name: "中文理论与计算方法"
+  short_description: "准确清楚地介绍物理学博士论文的理论与计算方法，保持术语和科学含义"
+  default_prompt: "使用 $cn-physics-computational-methods，按我的要求介绍、审查或修改理论计算方法，重点讲清原理、假设、公式和步骤，允许必要术语重复并保留科学含义。"
+

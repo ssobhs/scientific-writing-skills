@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文物理博士绪论"
+  short_description: "起草和审改背景绪论，改善中文搭配与逻辑承接，保持科学含义和文献归属"
+  default_prompt: "使用 $cn-physics-introduction，根据我提供的材料起草或审改中文博士论文绪论，保持科学含义、引文和工作状态。"

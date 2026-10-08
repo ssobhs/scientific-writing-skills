@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文物理结果分析"
+  short_description: "改善博士论文结果段的中文组织、图表论证与数据表述"
+  default_prompt: "请使用 $cn-physics-results-analysis，根据我提供的原稿、数据和图表起草或审改结果分析，保持科学含义，改善中文表达和论证衔接。"

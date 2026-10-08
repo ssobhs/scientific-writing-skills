@@ -1,0 +1,5 @@
+# Optional: needed only when running Word/PDF helper scripts.
+lxml
+python-docx
+pdfplumber
+Pillow
